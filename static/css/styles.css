@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+.Box {
+    background-color: aqua;
+    border: 2px solid black;
+    height: 10em;
+    width: 10em;
+}
